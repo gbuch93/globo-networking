@@ -15,9 +15,9 @@ variable "prefix" {
 }
 
 variable "environment" {
-type          = string
-description   = "(Optional) env of all resources"
-default       = "globo-dev"
+  type        = string
+  description = "(Optional) env of all resources"
+  default     = "globo-dev"
 }
 
 
