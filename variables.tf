@@ -20,6 +20,11 @@ variable "environment" {
   default     = "globo-dev"
 }
 
+variable "billing_code" {
+  type        = string
+  description = "(required) billing code for this"
+}
+
 
 variable "cidr_block" {
   type        = string
