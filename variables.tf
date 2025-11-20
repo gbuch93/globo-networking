@@ -38,7 +38,7 @@ variable "public_subnets" {
   default = {
     public-1 = "10.42.10.0/24"
     public-2 = "10.42.11.0/24"
-    public-3 = "10.42.11.0/24
+    public-3 = "10.42.11.0/24"
   }
 }
 
